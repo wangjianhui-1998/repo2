@@ -7,11 +7,36 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/wangjianhui_1998/shop-cloud_65
-         # username: 1299945679@qq.com
-         # password: wang7788945    是
-          username:
-          password:
+          uri: git@gitee.com:wangjianhui_1998/wolfcodeshop_config.git
+          ignore-local-ssh-settings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEowIBAAKCAQEAvHUFUtNmamz1OaPFVUCMHfZil2zmiPtonpMfYXaq/ybSHS05
+            a8sbTEWXPfWbM9H7pRhNtq4xyYtHm1UC3FOcgZRGzRI4JXWgwk6FD5xH96wFtgno
+            /K/k5jKuYuH9EgTtrq9FyDZq4OXJ1tfao9+CIgC1amGc/zGBuxD/qbEjhmDe7jCM
+            whopYnknGBX3mXTbCYmV+GkKf/TZFpqsUVtB7TSz2zAlBFlSz4OQzu08EuHYTHTv
+            edqp7soyFqr6G0mEcX+ipKzzPdEN2o27ZeCkLQpsVe8eqSXVIJb0bfxQzur+l1CC
+            LOkYQMfFJKbjN3RmNhW0lBTAq7yBlrCj5Y3UMwIDAQABAoIBAA8j046o3xRztmuw
+            BX1o1xjdH2SM4iRlFi2PIjlBQFGJO94OMQvA4GuLN7BJl/NczjugLTYc3nETmGgZ
+            N0aeDPe4Aswcx5fy0Dxr9HKhmoKCNl8+gpIyS1BXB/13rE4TSUj8Wb3Q6Vsx+rog
+            0zbREPJMXkaymttBjeuKXQ+z5Ge6IxBFZu0ip0pyXo1jVr0agN3mhBALUySqRf1f
+            8zvaV77CHIwEu+OZjbxnWWpU8rtJ/s60VNPTtZ71SqFrIcRkgEVwy8wGkzjqL3iC
+            MsSwKQT58VknqRfU8YiFRWrPWIq6f0FRpgOyihmVR7Z07YrqsqxPZdbXn0oUD0pJ
+            m8YvTVECgYEA9HLbuRBK2Xx7wVP6kCWGSUSS5bdF+QRpdZrR5qPxKmEd3ALTXTlU
+            Wp7a0VyHzocsOlgMb9ThwCASmqjlaH0+49Hc7vXtdDnnXokuYc0uWJ1WNS4Tn47M
+            1/GMGg6njKz/jlIAwzh9u67ckY+xWPr9FS1Kz1o1xAXilxIVzMWniRsCgYEAxVzS
+            dYjK3d9kxSCkUf0V6CcdZOkDZ9ZmjJZJZiSPsnSDmRELDLlleEPccV+1EbvoeNJE
+            ozqPIvSlt9/aUmHI21zr6qKfcQljLMewMlCLHoeiZ1YY8aJ9fLMDwdBXqpoQrz8X
+            qttNkMj9eCcvmIn1nEDy2zKzdoL4uaKPwFSaaskCgYEA6cfzNUFMpET2QkWjazpH
+            /EhVyNYHWIkMpsnDFrYRjftFSEV3iT+r2eL02KeKxkzmUoIkmstYf5rsz/bZN54Y
+            iF8L0YlnZ/F8wh+mOSi2u071xHRllgJHC/rZh44eVV6aJa1tR0b+kIFCNv/al4Oq
+            iRdA5Z+brfYG534HVUhu2qMCgYBDScpXWDQSQT/SFbbwXSFC7VMQPIF0vZxpAjQ0
+            JvL3HNJhNXZW+D6oKjrWTJMnYLF5v/a20BhNCqwVbLS6sawRXjTw4lEJ8PFnKw3f
+            maZU2ll8cdY/S+8MvNvjEG1TNQPLO++NyQdA/cWtWW7YyvB6PYqPQVH+bdjvMYVh
+            RXcAQQKBgFpSiVKV8uHfBZMqAg9P6J/X/Jqqi41JGNswJnoafqWZlOOvUC7gD2Iz
+            kvfoBEy+SWFI44bWRs7ob6+AaBNX9lO3bmAb9mUurhPJjRruHWaGNfY04BMBdoFT
+            +/UCDmFZaNPp+U/cTq1B3p1b4DXT4gEKwr90BeFk6QiJNC0Egn/u
+            -----END RSA PRIVATE KEY-----
 eureka:
   client:
     serviceUrl:
